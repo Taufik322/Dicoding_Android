@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Testing App</string>
+
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="calculate">Calculate</string>
+    <string name="hasil">Hasil</string>
+
+
+    <string name="move_activiy">Pindah Activity</string>
+    <string name="this_is_move_activiy">Berhasil Pindah Activity!</string>
+    <string name="move_with_data">Pindah Activity dengan Data</string>
+    <string name="move_with_object">Pindah Activity dengan Object</string>
+    <string name="dial_number">Dial a Number</string>
+    <string name="move_with_result">Pindah Activity untuk Result</string>
+    <string name="result_from_activity">Hasil dari Activity</string>
+    <string name="choose_number">Pilih Nomor</string>
+    <string name="_50">50</string>
+    <string name="_100">100</string>
+    <string name="_150">150</string>
+    <string name="_200">200</string>
+    <string name="choose">Pilih</string>
+    <string name="data_received">Data Diterima</string>
+    <string name="object_received" />
+
+    <string name="hello_world">Hello World</string>
+    <string name="set_text">Set Nilai</string>
+</resources>
