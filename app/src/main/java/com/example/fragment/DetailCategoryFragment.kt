@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import com.example.dicodingandroid.R
 
 class DetailCategoryFragment : Fragment() {
@@ -21,6 +22,12 @@ class DetailCategoryFragment : Fragment() {
     companion object {
         var EXTRA_NAME = "extra_name"
         var EXTRA_DESCRIPTION = "extra_description"
+    }
+
+    internal var optionDialogListener: OptionDialogFragment.OnOptionDialogListener = object : OptionDialogFragment.OnOptionDialogListener {
+        override fun onOptionChosen(text: String?) {
+            Toast.makeText(requireActivity(), text, Toast.LENGTH_SHORT).show()
+        }
     }
 
     override fun onCreateView(
@@ -48,6 +55,14 @@ class DetailCategoryFragment : Fragment() {
             tvCategoryName.text = categoryName
             tvCategoryDescription.text = description
         }
-    }
 
+        btnShowDialog.setOnClickListener {
+            val mOptionDialogFragment = OptionDialogFragment()
+            val mFragmentManager = childFragmentManager
+            mOptionDialogFragment.show(
+                mFragmentManager,
+                OptionDialogFragment::class.java.simpleName
+            )
+        }
+    }
 }
