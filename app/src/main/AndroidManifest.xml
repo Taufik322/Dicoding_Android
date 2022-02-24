@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DicodingAndroid">
         <activity
+            android:name="com.example.fragment.MainFragmentActivity"
+            android:exported="true" />
+        <activity
             android:name=".DebugActivity"
             android:exported="true" />
         <activity
