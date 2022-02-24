@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="@string/move_activiy"/>
+        android:text="@string/move_activiy" />
 
     <Button
         android:id="@+id/btn_move_activity_data"
@@ -38,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="@string/move_with_result"/>
+        android:text="@string/move_with_result" />
 
     <TextView
         android:id="@+id/tv_result"
@@ -46,6 +46,6 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/result_from_activity"
-        android:textSize="24sp"/>
+        android:textSize="24sp" />
 
 </LinearLayout>
