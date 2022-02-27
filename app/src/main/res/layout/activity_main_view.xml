@@ -22,8 +22,7 @@
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"/>
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextContent.Small.White"
                 android:padding="8dp"
                 android:text="6 Photos"
                 android:gravity="center_vertical"
@@ -37,40 +36,27 @@
         </FrameLayout>
         
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent"
             android:text="$375"
             android:textSize="32sp"
-            android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
             android:textColor="@color/black"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.Subtitle"
             android:text="Stock hanya 5 buah"
-            android:textSize="12sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent"
             android:text="@string/content_text"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             android:lineSpacingMultiplier="1"
             android:textColor="@color/black"/>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.Subtitle"
             android:text="Spesifikasi"
             android:textSize="12sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"/>
         <TableLayout
             android:layout_width="match_parent"
@@ -83,16 +69,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Field"
                     android:text="Display"/>
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_weight="1"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_display"
                     android:textColor="@android:color/black"/>
             </TableRow>
@@ -101,28 +81,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Field"
                     android:text="Battery"/>
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_weight="1"
-                    android:layout_marginLeft="16dp"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_battery"
                     android:textColor="@android:color/black"/>
             </TableRow>
         </TableLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.Subtitle"
             android:text="Dijual oleh"
-            android:layout_marginLeft="16dp"
-            android:layout_marginBottom="8dp"
-            android:textSize="12sp"/>
+            android:layout_marginBottom="8dp"/>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -138,8 +109,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginRight="16dp"/>
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextContent"
                 android:layout_toRightOf="@+id/profile_image"
                 android:text="Narenda Wicaksono"
                 android:textColor="@color/black"
@@ -147,11 +117,7 @@
         </RelativeLayout>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
+            style="@style/ButtonGeneral"
             android:text="Beli"/>
 
 
