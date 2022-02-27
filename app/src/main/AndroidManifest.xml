@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DicodingAndroid">
         <activity
+            android:name="com.example.view.MainViewActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.fragment.MainFragmentActivity"
             android:exported="true">
             <intent-filter>
@@ -18,7 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".DebugActivity"
             android:exported="true" />
@@ -36,9 +38,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
