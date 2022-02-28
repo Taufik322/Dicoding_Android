@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyViewAndView</string>
+    <string name="app_name">Custom Button</string>
 
     <string name="panjang">Panjang</string>
     <string name="lebar">Lebar</string>

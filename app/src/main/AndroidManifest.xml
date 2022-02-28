@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DicodingAndroid">
         <activity
+            android:name="com.example.customview.CustomView"
+            android:exported="true" />
+        <activity
             android:name="com.example.constraint.ConstraintActivity"
             android:exported="false" />
         <activity
