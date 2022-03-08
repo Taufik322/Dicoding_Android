@@ -12,7 +12,11 @@
         tools:layout="@layout/fragment_home_navigation" >
         <action
             android:id="@+id/action_homeFragmentNavigation_to_categoryFragmentNavigation"
-            app:destination="@id/categoryFragmentNavigation" />
+            app:destination="@id/categoryFragmentNavigation"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
         <action
             android:id="@+id/action_homeFragmentNavigation_to_profileActivityNavigation"
             app:destination="@id/profileActivityNavigation" />
@@ -29,10 +33,31 @@
     <activity
         android:id="@+id/profileActivityNavigation"
         android:name="com.example.navigation.ProfileActivityNavigation"
-        android:label="ProfileActivityNavigation" />
+        android:label="ProfileActivityNavigation">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://www.dicoding.com/profile" />
+    </activity>
     <fragment
         android:id="@+id/detailCategoryFragmentNavigation"
         android:name="com.example.navigation.DetailCategoryFragmentNavigation"
         android:label="fragment_detail_category_navigation"
-        tools:layout="@layout/fragment_detail_category_navigation" />
+        tools:layout="@layout/fragment_detail_category_navigation">
+        <argument
+            android:name="name"
+            android:defaultValue="default name"
+            app:argType="string" />
+        <argument
+            android:name="stock"
+            android:defaultValue="0L"
+            app:argType="long" />
+        <deepLink
+            android:id="@+id/deepLink2"
+            app:uri="https://www.dicoding.com/detail/{name}" />
+        <action
+            android:id="@+id/action_detailCategoryFragmentNavigation_to_homeFragmentNavigation"
+            app:destination="@id/homeFragmentNavigation"
+            app:popUpTo="@id/homeFragmentNavigation"
+            app:popUpToInclusive="true" />
+    </fragment>
 </navigation>

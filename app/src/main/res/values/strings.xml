@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Custom Button</string>
+    <string name="app_name">My Action Bar</string>
 
     <string name="panjang">Panjang</string>
     <string name="lebar">Lebar</string>
