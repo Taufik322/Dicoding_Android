@@ -1,64 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dicodingandroid">
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.example.dicodingandroid">
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.DicodingAndroid">
-        <activity
-            android:name="com.example.navigation.ProfileActivityNavigation"
-            android:exported="false" />
-        <activity
-            android:name="com.example.navigation.MainActivityNavigation"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.DicodingAndroid">
+    <activity
+        android:name="com.example.actionbar.MenuActivityActionBar"
+        android:exported="false" />
+    <activity
+        android:name="com.example.actionbar.MainActivityActionBar"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            <nav-graph android:value="@navigation/main_navigation"/>
-        </activity>
-        <activity
-            android:name="com.example.recycleview.UserDetail"
-            android:exported="false" />
-        <activity
-            android:name="com.example.recycleview.RecycleViewActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.example.customview.CustomView"
-            android:exported="true" />
-        <activity
-            android:name="com.example.constraint.ConstraintActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.view.MainViewActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.example.fragment.MainFragmentActivity"
-            android:exported="true">
-        </activity>
-        <activity
-            android:name=".DebugActivity"
-            android:exported="true" />
-        <activity
-            android:name=".MoveForResultActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MoveWithObject"
-            android:exported="false" />
-        <activity
-            android:name=".MoveWithDataActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MoveActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="true" />
-    </application>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name="com.example.navigation.ProfileActivityNavigation"
+        android:exported="false" />
+    <activity
+        android:name="com.example.navigation.MainActivityNavigation"
+        android:exported="true">
+        <nav-graph android:value="@navigation/main_navigation" />
+    </activity>
+    <activity
+        android:name="com.example.recycleview.UserDetail"
+        android:exported="false" />
+    <activity
+        android:name="com.example.recycleview.RecycleViewActivity"
+        android:exported="true" />
+    <activity
+        android:name="com.example.customview.CustomView"
+        android:exported="true" />
+    <activity
+        android:name="com.example.constraint.ConstraintActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.view.MainViewActivity"
+        android:exported="true" />
+    <activity
+        android:name="com.example.fragment.MainFragmentActivity"
+        android:exported="true"></activity>
+    <activity
+        android:name=".DebugActivity"
+        android:exported="true" />
+    <activity
+        android:name=".MoveForResultActivity"
+        android:exported="false" />
+    <activity
+        android:name=".MoveWithObject"
+        android:exported="false" />
+    <activity
+        android:name=".MoveWithDataActivity"
+        android:exported="false" />
+    <activity
+        android:name=".MoveActivity"
+        android:exported="false" />
+    <activity
+        android:name=".MainActivity2"
+        android:exported="true" />
+</application>
 
 </manifest>

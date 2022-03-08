@@ -10,9 +10,11 @@
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/activity_constraint.xml" value="0.264" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/activity_custom_view.xml" value="0.264" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/activity_main_action_bar.xml" value="0.13994565217391305" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/activity_main_fragment.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/activity_main_navigation.xml" value="0.25" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/activity_main_view.xml" value="0.1" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/activity_menu_action_bar.xml" value="0.25" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/activity_move.xml" value="0.18614130434782608" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/activity_move_with_data.xml" value="0.18614130434782608" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/activity_move_with_object.xml" value="0.18614130434782608" />
@@ -26,10 +28,12 @@
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/fragment_detail_category_navigation.xml" value="0.24682971014492755" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/fragment_home.xml" value="0.176" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/fragment_home_navigation.xml" value="0.2" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/fragment_menu_action_bar.xml" value="0.25" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/fragment_option_dialog.xml" value="0.2" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/item_row_hero.xml" value="0.25" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/layout_seller.xml" value="0.4646302250803859" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layout/layout_specification.xml" value="0.264" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/menu/option_menu.xml" value="0.25" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/app/src/main/res/layout/activity_debug.xml" value="0.1" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/app/src/main/res/layout/activity_main2.xml" value="0.18885869565217392" />
