@@ -94,4 +94,6 @@
         <item>@drawable/supomo</item>
     </integer-array>
 
+    <string name="to_home">Ke fragment Home</string>
+
 </resources>

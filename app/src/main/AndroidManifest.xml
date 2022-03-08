@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DicodingAndroid">
         <activity
+            android:name="com.example.navigation.ProfileActivityNavigation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.navigation.MainActivityNavigation"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.recycleview.UserDetail"
+            android:exported="false" />
+        <activity
             android:name="com.example.recycleview.RecycleViewActivity"
             android:exported="true" />
         <activity
@@ -24,11 +39,6 @@
         <activity
             android:name="com.example.fragment.MainFragmentActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".DebugActivity"
