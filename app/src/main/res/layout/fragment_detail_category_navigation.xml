@@ -5,19 +5,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="com.example.navigation.CategoryFragmentNavigation">
+    tools:context="com.example.navigation.DetailCategoryFragmentNavigation">
 
     <TextView
+        android:id="@+id/tv_category_name_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="@string/this_category" />
+        android:text="@string/category_name" />
 
-    <Button
-        android:id="@+id/btn_category_lifestyle"
+    <TextView
+        android:id="@+id/tv_category_description_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/category_lifestyle" />
-
+        android:layout_marginBottom="16dp"
+        android:text="@string/category_description" />
 
 </LinearLayout>

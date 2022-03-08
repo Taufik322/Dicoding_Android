@@ -21,9 +21,18 @@
         android:id="@+id/categoryFragmentNavigation"
         android:name="com.example.navigation.CategoryFragmentNavigation"
         android:label="fragment_category_navigation"
-        tools:layout="@layout/fragment_category_navigation" />
+        tools:layout="@layout/fragment_category_navigation" >
+        <action
+            android:id="@+id/action_categoryFragmentNavigation_to_detailCategoryFragmentNavigation"
+            app:destination="@id/detailCategoryFragmentNavigation" />
+    </fragment>
     <activity
         android:id="@+id/profileActivityNavigation"
         android:name="com.example.navigation.ProfileActivityNavigation"
         android:label="ProfileActivityNavigation" />
+    <fragment
+        android:id="@+id/detailCategoryFragmentNavigation"
+        android:name="com.example.navigation.DetailCategoryFragmentNavigation"
+        android:label="fragment_detail_category_navigation"
+        tools:layout="@layout/fragment_detail_category_navigation" />
 </navigation>
