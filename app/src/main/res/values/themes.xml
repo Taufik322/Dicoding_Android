@@ -60,4 +60,13 @@
         <item name="android:layout_marginBottom">16dp</item>
     </style>
 
+    <style name="Theme.DicodingAndroid.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.DicodingAndroid.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.DicodingAndroid.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

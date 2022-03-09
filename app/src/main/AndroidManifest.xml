@@ -8,17 +8,21 @@ package="com.example.dicodingandroid">
     android:roundIcon="@mipmap/ic_launcher_round"
     android:supportsRtl="true"
     android:theme="@style/Theme.DicodingAndroid">
+    <activity android:name ="com.example.navigationdrawer.MainActivityDrawer"
+        android:exported="true"
+        android:label = "@string/title_activity_main_drawer"
+        android:theme = "@style/Theme.DicodingAndroid.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
     <activity
         android:name="com.example.actionbar.MenuActivityActionBar"
         android:exported="false" />
     <activity
         android:name="com.example.actionbar.MainActivityActionBar"
         android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
     </activity>
     <activity
         android:name="com.example.navigation.ProfileActivityNavigation"
@@ -45,7 +49,7 @@ package="com.example.dicodingandroid">
         android:exported="true" />
     <activity
         android:name="com.example.fragment.MainFragmentActivity"
-        android:exported="true"></activity>
+        android:exported="true" />
     <activity
         android:name=".DebugActivity"
         android:exported="true" />
