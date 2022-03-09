@@ -102,4 +102,6 @@
     <string name="menu_1">Menu 1</string>
     <string name="menu_2">Menu 2</string>
 
+    <string name="search_hint">Masukkan kata</string>
+
 </resources>
