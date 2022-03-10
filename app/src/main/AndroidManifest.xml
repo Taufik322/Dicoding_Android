@@ -11,14 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DicodingAndroid">
         <activity
-            android:name="com.example.bottomnavigation.MainActivity"
-            android:exported="true"
-            android:label="@string/title_activity_main">
+            android:name="com.example.tablayout.MainActivityTabLayout"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.bottomnavigation.MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main" />
         <activity
             android:name="com.example.navigationdrawer.SubwayActivityDrawer"
             android:exported="false" />
@@ -26,8 +29,7 @@
             android:name="com.example.navigationdrawer.MainActivityDrawer"
             android:exported="true"
             android:label="@string/title_activity_main_drawer"
-            android:theme="@style/Theme.DicodingAndroid.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.DicodingAndroid.NoActionBar" />
         <activity
             android:name="com.example.actionbar.MenuActivityActionBar"
             android:exported="false" />
