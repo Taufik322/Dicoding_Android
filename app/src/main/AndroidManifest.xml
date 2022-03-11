@@ -11,12 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DicodingAndroid">
         <activity
-            android:name="com.example.tablayout.MainActivityTabLayout"
+            android:name="com.example.backroundthread.MainActivityBackgroudThread"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.tablayout.MainActivityTabLayout"
+            android:exported="true">
+
         </activity>
         <activity
             android:name="com.example.bottomnavigation.MainActivity"
