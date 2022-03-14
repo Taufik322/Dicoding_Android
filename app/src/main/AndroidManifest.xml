@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DicodingAndroid">
         <activity
+            android:name="com.example.quote.ListQuoteActivity"
+            android:exported="false"
+
+            />
+        <activity
             android:name="com.example.quote.MainActivityQuote"
             android:exported="true">
             <intent-filter>

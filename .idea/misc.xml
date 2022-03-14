@@ -48,14 +48,19 @@
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/bottomnavigation/menu/bottom_nav_menu.xml" value="0.25" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/dicoding/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/dicoding/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/dicoding/layout/activity_recycle_view.xml" value="0.25" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/dicoding/layout/activity_user_detail.xml" value="0.25" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/dicoding/layout/fragment_dashboard.xml" value="0.2368659420289855" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/dicoding/layout/fragment_home.xml" value="0.2368659420289855" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/dicoding/layout/fragment_home_frag.xml" value="0.2368659420289855" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/dicoding/layout/fragment_home_navigation.xml" value="0.1956521739130435" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/dicoding/layout/fragment_notifications.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/dicoding/layout/item_row_hero.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/dicoding/layout/nav_header_main_activity_drawer.xml" value="0.625" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/dicoding/menu/activity_main_drawer_drawer.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/quote/layout/activity_list_quote.xml" value="0.11474164133738601" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/quote/layout/activity_main_quote.xml" value="0.2" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/quote/layout/item_quote.xml" value="0.176" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/tablayout/layout/activity_main_tab_layout.xml" value="0.23731884057971014" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/tablayout/layout/fragment_home_tab_layout.xml" value="0.2" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/tablayout/layout/fragment_profile_tab_layout.xml" value="0.23731884057971014" />
