@@ -11,7 +11,7 @@ package="com.example.dicodingandroid">
     android:supportsRtl="true"
     android:theme="@style/Theme.DicodingAndroid">
     <activity
-        android:name="com.example.restaurant.MainActivityRestaurant"
+        android:name="com.example.viewmodel.MainActivityViewModel"
         android:exported="true"
 
         >
@@ -20,6 +20,9 @@ package="com.example.dicodingandroid">
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
+    <activity
+        android:name="com.example.restaurant.MainActivityRestaurant"
+        android:exported="true"/>
     <activity
         android:name="com.example.quote.ListQuoteActivity"
         android:exported="false"
