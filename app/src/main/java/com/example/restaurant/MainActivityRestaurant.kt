@@ -1,21 +1,14 @@
 package com.example.restaurant
 
-import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
-import android.view.inputmethod.InputMethod
-import android.view.inputmethod.InputMethodManager
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
-import com.example.dicodingandroid.R
 import com.example.dicodingandroid.databinding.ActivityMainRestaurantBinding
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
+import com.google.android.material.snackbar.Snackbar
 
 class MainActivityRestaurant : AppCompatActivity() {
 
@@ -37,21 +30,29 @@ class MainActivityRestaurant : AppCompatActivity() {
             this,
             ViewModelProvider.NewInstanceFactory()
         ).get(MainViewModel::class.java)
-        mainViewModel.restaurant.observe(this, { restaurant ->
+        mainViewModel.restaurant.observe(this) { restaurant ->
             setRestaurantData(restaurant)
-        })
+        }
 
         val layoutManager = LinearLayoutManager(this)
         binding.rvReview.layoutManager = layoutManager
         val itemDecoration = DividerItemDecoration(this, layoutManager.orientation)
         binding.rvReview.addItemDecoration(itemDecoration)
 
-        mainViewModel.listReview.observe(this, { consumerReviews ->
+        mainViewModel.listReview.observe(this) { consumerReviews ->
             setReviewData(consumerReviews)
-        })
-        mainViewModel.isLoading.observe(this, {
+        }
+        mainViewModel.isLoading.observe(this) {
             showLoading(it)
-        })
+        }
+
+        mainViewModel.snackbarText.observe(this) {
+            it.getContentIfNotHandled()?.let { snackBarText->
+                Snackbar.make(
+                    window.decorView.rootView, snackBarText, Snackbar.LENGTH_SHORT
+                ).show()
+            }
+        }
 
         binding.btnSend.setOnClickListener {
             mainViewModel.postReview(binding.edReview.text.toString())
