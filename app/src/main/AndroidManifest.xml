@@ -12,25 +12,21 @@ package="com.example.dicodingandroid">
     android:theme="@style/Theme.DicodingAndroid">
     <activity
         android:name="com.example.livedata.MainActivityLiveData"
-        android:exported="true"
-
-        >
+        android:exported="true"/>
+    <activity
+        android:name="com.example.viewmodel.MainActivityViewModel"
+        android:exported="true"/>
+    <activity
+        android:name="com.example.restaurant.MainActivityRestaurant"
+        android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
     <activity
-        android:name="com.example.viewmodel.MainActivityViewModel"
-        android:exported="true"/>
-    <activity
-        android:name="com.example.restaurant.MainActivityRestaurant"
-        android:exported="true" />
-    <activity
         android:name="com.example.quote.ListQuoteActivity"
-        android:exported="false"
-
-        />
+        android:exported="false"/>
     <activity
         android:name="com.example.quote.MainActivityQuote"
         android:exported="true"/>
