@@ -11,7 +11,7 @@ package="com.example.dicodingandroid">
     android:supportsRtl="true"
     android:theme="@style/Theme.DicodingAndroid">
     <activity
-        android:name="com.example.viewmodel.MainActivityViewModel"
+        android:name="com.example.livedata.MainActivityLiveData"
         android:exported="true"
 
         >
@@ -21,8 +21,11 @@ package="com.example.dicodingandroid">
         </intent-filter>
     </activity>
     <activity
-        android:name="com.example.restaurant.MainActivityRestaurant"
+        android:name="com.example.viewmodel.MainActivityViewModel"
         android:exported="true"/>
+    <activity
+        android:name="com.example.restaurant.MainActivityRestaurant"
+        android:exported="true" />
     <activity
         android:name="com.example.quote.ListQuoteActivity"
         android:exported="false"
@@ -30,7 +33,7 @@ package="com.example.dicodingandroid">
         />
     <activity
         android:name="com.example.quote.MainActivityQuote"
-        android:exported="true"></activity>
+        android:exported="true"/>
     <activity
         android:name="com.example.backroundthread.MainActivityBackgroudThread"
         android:exported="true" />
