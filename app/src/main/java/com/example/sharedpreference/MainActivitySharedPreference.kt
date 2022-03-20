@@ -1,6 +1,5 @@
 package com.example.sharedpreference
 
-import android.app.Instrumentation
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -47,7 +46,7 @@ class MainActivitySharedPreference : AppCompatActivity(), View.OnClickListener {
 
     private fun populateView(userModel: UserModel) {
         binding.tvName.text = if (userModel.name.toString().isEmpty()) "Tidak Ada" else userModel.name
-        binding.tvAge.text = if (userModel.age.toString().isEmpty()) "Tidak Ada" else userModel.age.toString()
+        binding.tvAge.text = userModel.age.toString().ifEmpty { "Tidak Ada" }
         binding.tvIsLoveMu.text = if (userModel.isLove) "Ya" else "Tidak"
         binding.tvEmail.text = if (userModel.email.toString().isEmpty()) "Tidak Ada" else userModel.email
         binding.tvPhone.text = if (userModel.phoneNumber.toString().isEmpty()) "Tidak Ada" else userModel.phoneNumber

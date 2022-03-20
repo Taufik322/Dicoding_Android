@@ -12,18 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DicodingAndroid">
         <activity
-            android:name="com.example.sharedpreference.FormUserPreferenceActivity"
-            android:exported="false"
-
-            />
-        <activity
-            android:name="com.example.sharedpreference.MainActivitySharedPreference"
+            android:name="com.example.setting.MainActivitySetting"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.sharedpreference.FormUserPreferenceActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.sharedpreference.MainActivitySharedPreference"
+            android:exported="true" />
         <activity
             android:name="com.example.saveopenfile.MainActivitySaveOpenFile"
             android:exported="true" />
