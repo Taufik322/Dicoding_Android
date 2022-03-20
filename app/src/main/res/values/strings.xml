@@ -144,7 +144,7 @@
     <string name="author">- Dr. Hiluluk</string>
     <string name="show_list_quotes">Show me list of quotes</string>
 
-    <string name="title">Judul</string>
+    <string name="title_">Judul</string>
     <string name="descriptionRestaurant">Description</string>
     <string name="review">Review</string>
     <string name="write_your_review_here">Write your review here..</string>
@@ -158,4 +158,9 @@
 
     <string name="seconds">%d seconds elapsed</string>
     <string name="hello_dicoding">Hello Dicoding!</string>
+
+    <string name="file_new">File New</string>
+    <string name="file_open">File Open</string>
+    <string name="file_save">File Save</string>
+    <string name="title">Title</string>
 </resources>

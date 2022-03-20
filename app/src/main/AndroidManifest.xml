@@ -11,13 +11,7 @@ package="com.example.dicodingandroid">
     android:supportsRtl="true"
     android:theme="@style/Theme.DicodingAndroid">
     <activity
-        android:name="com.example.livedata.MainActivityLiveData"
-        android:exported="true"/>
-    <activity
-        android:name="com.example.viewmodel.MainActivityViewModel"
-        android:exported="true"/>
-    <activity
-        android:name="com.example.restaurant.MainActivityRestaurant"
+        android:name="com.example.saveopenfile.MainActivitySaveOpenFile"
         android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -25,11 +19,21 @@ package="com.example.dicodingandroid">
         </intent-filter>
     </activity>
     <activity
+        android:name="com.example.livedata.MainActivityLiveData"
+        android:exported="true" />
+    <activity
+        android:name="com.example.viewmodel.MainActivityViewModel"
+        android:exported="true" />
+    <activity
+        android:name="com.example.restaurant.MainActivityRestaurant"
+        android:exported="true">
+    </activity>
+    <activity
         android:name="com.example.quote.ListQuoteActivity"
-        android:exported="false"/>
+        android:exported="false" />
     <activity
         android:name="com.example.quote.MainActivityQuote"
-        android:exported="true"/>
+        android:exported="true" />
     <activity
         android:name="com.example.backroundthread.MainActivityBackgroudThread"
         android:exported="true" />
