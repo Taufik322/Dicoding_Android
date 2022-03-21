@@ -12,13 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DicodingAndroid">
         <activity
-            android:name="com.example.datastore.MainActivityDataStore"
+            android:name="com.example.noteapp.NoteAddUpdateActivity"
+            android:exported="false"
+
+            />
+        <activity
+            android:name="com.example.noteapp.MainActivityNoteApp"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.datastore.MainActivityDataStore"
+            android:exported="true" />
         <activity
             android:name="com.example.setting.MainActivitySetting"
             android:exported="true" />
