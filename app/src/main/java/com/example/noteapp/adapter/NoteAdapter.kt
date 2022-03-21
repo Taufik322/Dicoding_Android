@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.dicodingandroid.R
 import com.example.dicodingandroid.databinding.ItemNoteBinding
 import com.example.noteapp.entity.Note
-import com.example.recycleview.ListHeroAdapter
 
 class NoteAdapter(private val onItemClickCallback: OnItemClickCallback): RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {
 

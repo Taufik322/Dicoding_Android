@@ -1,4 +1,4 @@
-package com.example.noteapp
+package com.example.noteapp.ui
 
 import android.content.ContentValues
 import android.content.Intent
@@ -123,7 +123,7 @@ class NoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         if (isEdit) {
-            menuInflater.inflate(R.menu.menu_form, menu)
+            menuInflater.inflate(R.menu.menu_form_room, menu)
         }
         return super.onCreateOptionsMenu(menu)
     }

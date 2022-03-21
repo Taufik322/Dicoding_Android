@@ -69,13 +69,17 @@
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/noteapp/layout/activity_main_note_app.xml" value="0.25" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/noteapp/layout/activity_note_add_update.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/noteapp/layout/item_note.xml" value="0.25" />
-        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/noteapp/menu/menu_form.xml" value="0.25" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/noteapp/menu/menu_form.xml" value="0.1" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/opensavefile/layout/activity_main_save_open_file.xml" value="0.24139492753623187" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/quote/layout/activity_list_quote.xml" value="0.11474164133738601" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/quote/layout/activity_main_quote.xml" value="0.2" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/quote/layout/item_quote.xml" value="0.176" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/restaurant/layout/activity_main_restaurant.xml" value="0.2" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/restaurant/layout/item_review.xml" value="0.25" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/room/layout/activity_main_room.xml" value="0.25" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/room/layout/activity_note_add_update_room.xml" value="0.25" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/room/menu/menu_form.xml" value="0.25" />
+        <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/room/menu/menu_form_room.xml" value="0.22037037037037038" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/setting/layout/activity_main_setting.xml" value="0.24739583333333334" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/setting/xml/preferences.xml" value="0.25" />
         <entry key="..\:/Users/TAUFIK/Documents/Project Android Studio/Android Dicoding/Project/Dicoding_Android/app/src/main/res/layouts/sharedpreference/layout/activity_main_shared_preference.xml" value="0.25" />

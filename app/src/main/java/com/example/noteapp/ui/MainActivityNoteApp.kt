@@ -1,4 +1,4 @@
-package com.example.noteapp
+package com.example.noteapp.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,6 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.dicodingandroid.R
 import com.example.dicodingandroid.databinding.ActivityMainNoteAppBinding
 import com.example.noteapp.adapter.NoteAdapter
 import com.example.noteapp.db.NoteHelper
