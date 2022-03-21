@@ -11,5 +11,5 @@ class MainActivitySetting : AppCompatActivity() {
 
         supportFragmentManager.beginTransaction().add(R.id.setting_holder, MyPreferenceFragment()).commit()
     }
-
+//
 }
