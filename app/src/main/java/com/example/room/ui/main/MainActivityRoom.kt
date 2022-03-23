@@ -39,7 +39,6 @@ class MainActivityRoom : AppCompatActivity() {
                 startActivity(intent)
             }
         }
-//
     }
 
     private fun obtainViewModel(activity: AppCompatActivity): MainViewModelRoom {
