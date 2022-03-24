@@ -27,11 +27,11 @@ class MainActivityRoom : AppCompatActivity() {
         binding?.rvNotes?.adapter = adapter
 
         val mainViewModel = obtainViewModel(this)
-        mainViewModel.getAllNotes().observe(this, { noteList ->
+        mainViewModel.getAllNotes().observe(this) { noteList ->
             if (noteList != null) {
                 adapter.setListNotes(noteList)
             }
-        })
+        }
 
         binding?.fabAdd?.setOnClickListener { view ->
             if (view.id == R.id.fab_add) {
