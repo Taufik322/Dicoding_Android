@@ -5,10 +5,11 @@ import androidx.lifecycle.ViewModel
 import com.example.room.database.Note
 import com.example.room.repository.NoteRepository
 
-class NoteAddUpdateViewModel(application: Application): ViewModel() {
+class NoteAddUpdateViewModel(application: Application) : ViewModel() {
+
     private val mNoteRepository: NoteRepository = NoteRepository(application)
 
-    fun insert(note: Note){
+    fun insert(note: Note) {
         mNoteRepository.insert(note)
     }
 
@@ -19,4 +20,5 @@ class NoteAddUpdateViewModel(application: Application): ViewModel() {
     fun delete(note: Note) {
         mNoteRepository.delete(note)
     }
+
 }

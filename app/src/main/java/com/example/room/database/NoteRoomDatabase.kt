@@ -7,7 +7,8 @@ import androidx.room.RoomDatabase
 
 @Database(entities = [Note::class], version = 1)
 abstract class NoteRoomDatabase : RoomDatabase() {
-    abstract fun  noteDao(): NoteDao
+
+    abstract fun noteDao(): NoteDao
 
     companion object {
         @Volatile
@@ -16,8 +17,10 @@ abstract class NoteRoomDatabase : RoomDatabase() {
         @JvmStatic
         fun getDatabase(context: Context): NoteRoomDatabase {
             if (INSTANCE == null) {
-                kotlin.synchronized(NoteRoomDatabase::class.java) {
-                    INSTANCE = Room.databaseBuilder(context.applicationContext, NoteRoomDatabase::class.java, "note_database").build()
+                synchronized(NoteRoomDatabase::class.java) {
+                    INSTANCE = Room.databaseBuilder(context.applicationContext,
+                        NoteRoomDatabase::class.java, "note_database")
+                        .build()
                 }
             }
             return INSTANCE as NoteRoomDatabase

@@ -9,24 +9,25 @@ import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
 class NoteRepository(application: Application) {
-    private val mNoteDao: NoteDao
+    private val mNotesDao: NoteDao
     private val executorService: ExecutorService = Executors.newSingleThreadExecutor()
 
     init {
         val db = NoteRoomDatabase.getDatabase(application)
-        mNoteDao = db.noteDao()
+        mNotesDao = db.noteDao()
     }
 
-    fun getAllNotes(): LiveData<List<Note>> = mNoteDao.getAllNotes()
+    fun getAllNotes(): LiveData<List<Note>> = mNotesDao.getAllNotes()
 
-    fun insert(note: Note){
-        executorService.execute { mNoteDao.insert(note) }
+    fun insert(note: Note) {
+        executorService.execute { mNotesDao.insert(note) }
     }
 
     fun delete(note: Note) {
-        executorService.execute { mNoteDao.delete(note) }
+        executorService.execute { mNotesDao.delete(note) }
     }
+
     fun update(note: Note) {
-        executorService.execute { mNoteDao.update(note) }
+        executorService.execute { mNotesDao.update(note) }
     }
 }
