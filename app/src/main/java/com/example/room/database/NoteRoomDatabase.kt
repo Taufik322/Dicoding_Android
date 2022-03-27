@@ -24,6 +24,7 @@ abstract class NoteRoomDatabase : RoomDatabase() {
                 }
             }
             return INSTANCE as NoteRoomDatabase
+//
         }
     }
 }
