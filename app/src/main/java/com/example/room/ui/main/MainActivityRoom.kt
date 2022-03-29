@@ -30,6 +30,7 @@ class MainActivityRoom : AppCompatActivity() {
                 adapter.setListNotes(noteList)
             }
         })
+//
 
         adapter = NoteAdapter()
 
