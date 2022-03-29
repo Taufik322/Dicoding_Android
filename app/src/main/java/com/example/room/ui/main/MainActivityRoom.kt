@@ -25,11 +25,11 @@ class MainActivityRoom : AppCompatActivity() {
         setContentView(binding?.root)
 
         val mainViewModel = obtainViewModel(this@MainActivityRoom)
-        mainViewModel.getAllNotes().observe(this, { noteList ->
+        mainViewModel.getAllNotes().observe(this) { noteList ->
             if (noteList != null) {
                 adapter.setListNotes(noteList)
             }
-        })
+        }
 //
 
         adapter = NoteAdapter()
